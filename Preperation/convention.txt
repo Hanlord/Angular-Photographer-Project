@@ -1,0 +1,34 @@
+Rules for the Project Photography
+
+Meeting every day (does not matter Online or Onsite)
+9:00
+15:00
+(continue in Slack, Discord)
+
+Trello Kanban for given tasks (screenshot inside presentation)
+Mindmapping (using tool for requirements)
+
+use camelCase for functions / Variables
+use classes with the sign hyphen -
+use underline (underscore) for id
+use let
+functional readable meaning names
+
+mockups
+
+Choose Color Palette
+Randomly chosen
+#135D75
+#71D5F7
+#27C1F5
+#366575
+#1F99C2
+
+Choose Google Fonts
+font-family: 'Century Gothic';
+
+Different Link inputs
+Bootstrap CDN Link
+Fontawesome Icon Link
+Anima js Animation Link
+

@@ -1,0 +1,106 @@
+<!-- Landscapes section -->
+<div class="text-center" id="top3">
+    <button (click)="jump()" class="wedding btn btn-outline mt-5 bouncy">Wedding</button>&nbsp;
+    <button (click)="jump2()" class="culinary btn btn-outline mt-5 bouncy">Culinary</button>&nbsp;
+    <button (click)="jump3()" class="portraits btn btn-outline mt-5 bouncy">Portraits</button>
+    <div>
+
+        <div class="py-5">
+            <div class="wrapper">
+                <h1 id="textFont" class="text-center   top-p animate__animated animate__fadeInLeft">LANDSCAPE PHOTOGRAPHY</h1>
+
+            </div>
+        </div>
+
+
+        <div class="container justify-content-between fullwidth">
+            <div class="py-5">
+                <div class="container text-center">
+                    <div class="row text-center align-items-center">
+                        <div *ngFor="let landscape of landscapes; index as photoId" class="col-xs col-sm-12 col-lg-4 col-md-6  col-xl-4 p-1">
+
+                            <img class="card-img-top myClass mouse-invisible" src="{{landscape.img}}" alt="Card image cap">
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button (click)="gotoTop()" class="scroll-to-top btn btn-outline-secondary"><i class="fa-solid fa-angles-up"></i></button>
+
+
+        <!-- Weddings section -->
+
+        <div class="py-5" id="wedding">
+            <div class="wrapper">
+                <h1 id="textFont" class="text-center ">WEDDING PHOTOGRAPHY</h1>
+
+            </div>
+        </div>
+
+
+        <div class="container justify-content-between fullwidth">
+            <div class="py-5">
+                <div class="container text-center">
+                    <div class="row text-center align-items-center">
+                        <div *ngFor="let wedding of weddings; index as photoId" class="col-xs col-sm-12 col-lg-4 col-md-6  col-xl-4 p-1">
+
+                            <img class="card-img-top myClass mouse-invisible" src="{{wedding.img}}" alt="Card image cap">
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Foods section -->
+
+        <div class="py-5" id="culinary">
+            <div class="wrapper">
+                <h1 id="textFont" class="text-center">CULINARY PHOTOGRAPHY</h1>
+
+            </div>
+        </div>
+
+
+        <div class="container justify-content-between fullwidth">
+            <div class="py-5">
+                <div class="container text-center">
+                    <div class="row text-center align-items-center">
+                        <div *ngFor="let food of foods; index as photoId" class="col-xs col-sm-12 col-lg-4 col-md-6  col-xl-4 p-1">
+
+                            <img class="card-img-top myClass mouse-invisible" src="{{food.img}}" alt="Card image cap">
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portraits section -->
+
+        <div class="py-5" id="portraits">
+            <div class="wraper">
+                <h1 id="textFont" class="text-center">PORTRAITS PHOTOGRAPHY</h1>
+            </div>
+        </div>
+
+
+
+        <div class="container justify-content-between fullwidth">
+            <div class="py-5">
+                <div class="container text-center">
+                    <div class="row text-center align-items-center">
+                        <div *ngFor="let portrait of portraits; index as photoId" class="col-xs col-sm-12 col-lg-4 col-md-6  col-xl-4 p-1 ">
+
+                            <img class="card-img-top myClass mouse-invisible" src="{{portrait.img}}" alt="Card image cap">
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

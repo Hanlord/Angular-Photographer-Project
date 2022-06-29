@@ -1,0 +1,28 @@
+.img {
+    height: 90vh;
+}
+
+.text1 {
+    color: gray;
+    text-decoration: none;
+    &:hover {
+        color: black;
+    }
+}
+
+.text2 {
+    color: gray;
+}
+
+#text1 {
+    font-family: Century Gothic;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 28vh;
+    right: 33px;
+    cursor: pointer;
+    z-index: 5;
+    display: none;
+}

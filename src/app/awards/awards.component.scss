@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 28vh;
+    right: 33px;
+    cursor: pointer;
+    z-index: 5;
+    // display: none;
+}
+
+.title1 {
+    font-family: Century Gothic;
+    color: rgba(208, 193, 152, 0.657);
+    font-size: 2vw;
+}
+
+.title2 {
+    font-family: Century Gothic;
+    color: rgba(208, 193, 152, 0.657);
+    font-size: 1.7vw;
+}
+
+.textAward {
+    font-family: Century Gothic;
+    color: #d5d3c9ce;
+    ;
+    font-size: 1.5vw;
+    font-style: italic;
+    background-color: #bcb598fe;
+    // background: linear-gradient(90deg, rgba(0, 0, 0, 0.214) 6%, rgba(157, 117, 69, 0.933) 49%, rgba(0, 0, 0, 0.343) 92%);
+    // box-shadow: 0px 10px 13px -7px #bcb598, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 2%, rgba(157, 117, 69, 0.933) 36%, rgba(157, 117, 69, 0.933) 56%, rgba(0, 0, 0, 1) 98%);
+    // box-shadow: 0px 12px 5px 2px rgba(157, 117, 69, 0.933);
+    // -webkit-box-shadow: 0px 12px 5px 2px rgba(157, 117, 69, 0.933);
+    // -moz-box-shadow: 0px 12px 5px 2px rgba(157, 117, 69, 0.933);
+}
+
+.mouse-invisible {
+    cursor: none;
+}
+
+// .body {
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: rgba(0, 0, 0, 0.846);
+// }
+// .winnerOf {
+//     background-color: rgba(0, 0, 0, 0.944);
+//     box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #e3a60b, 0 0 30px #ef9a06;
+// }
+// .img-fluid1 {
+//     margin-top: 10vh;
+//     max-width: 620px;
+// }
+// .bannerTxt {
+//     margin-top: 25vh;
+//     font-family: Century Gothic;
+//     font-size: 117px;
+//     color: rgba(255, 255, 255, 0.463);
+//     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #e3a60b, 0 0 30px #ef9a06, 0 0 40px #fff318, 0 0 55px #fff318, 0 0 75px #d4ca05;
+//     font-style: italic;
+// }
+// @media only screen and (max-width: 1400px) {
+//     .bannerTxt {
+//         font-size: 110px;
+//         margin-top: 22vh;
+//     }
+// }
+// @media only screen and (max-width: 1199px) {
+//     .bannerTxt {
+//         font-size: 85px;
+//         margin-left: 4rem;
+//         margin-top: 9.5rem;
+//     }
+//     .img-fluid1 {
+//         width: 30vw;
+//         margin-left: 8rem;
+//         margin-top: 3.5rem;
+//     }
+// }
+// @media only screen and (max-width: 992px) {
+//     .bannerTxt {
+//         font-size: 60px;
+//         margin-top: 7.5rem;
+//     }
+//     .img-fluid1 {
+//         width: 100%;
+//         margin-left: -0.5rem;
+//         margin-top: 3.5rem;
+//     }
+// }
+// @media only screen and (max-width: 768px) {
+//     .bannerTxt {
+//         margin-right: 4rem;
+//     }
+// }
+// @media only screen and (max-width: 576px) {
+//     .bannerTxt {
+//         font-size: 2rem;
+//     }
+// }
+// .img-fluid1 {
+//     max-width: 400px;
+// }

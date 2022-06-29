@@ -1,0 +1,23 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: relative;
+  height: 90vh;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.txt {
+  margin-top: -4rem;
+  color: white;
+}
+
+.txtStyle {
+  font-family: Century Gothic;
+}
+/*# sourceMappingURL=hero.component.css.map */

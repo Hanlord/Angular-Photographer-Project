@@ -1,0 +1,54 @@
+.card {
+  border-radius: .7rem;
+}
+
+.testimonials {
+  color: #000;
+  background-color: #1aa6c54f;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.fa-star,
+.fa-star-half-alt {
+  color: #224859;
+}
+
+#text1 {
+  font-family: Century Gothic;
+}
+
+#title {
+  color: rgba(42, 98, 111, 0.734);
+  font-family: Century Gothic;
+}
+
+#subtitle {
+  color: white;
+  font-family: Century Gothic;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+#textname {
+  font-family: Century Gothic;
+  color: #178ca64f;
+}
+
+#textJob {
+  font-family: Century Gothic;
+  color: #113d6b;
+}
+
+.fa-quote-left {
+  color: #0d728beb;
+}
+
+#textQuote {
+  font-family: Century Gothic;
+  color: #0b2139;
+}
+/*# sourceMappingURL=review.component.css.map */

@@ -1,0 +1,39 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: #135d75;
+}
+
+a {
+  text-decoration: none;
+}
+
+#txtFont {
+  font-family: Century Gothic;
+}
+
+#myVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.content {
+  position: relative;
+  padding: 10vw 15vw;
+  overflow: hidden;
+  min-height: 50vh;
+}
+
+.bg-card {
+  opacity: 93%;
+}
+/*# sourceMappingURL=contact.component.css.map */

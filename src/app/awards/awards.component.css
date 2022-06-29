@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: black;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 28vh;
+  right: 33px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.title1 {
+  font-family: Century Gothic;
+  color: rgba(208, 193, 152, 0.657);
+  font-size: 2vw;
+}
+
+.title2 {
+  font-family: Century Gothic;
+  color: rgba(208, 193, 152, 0.657);
+  font-size: 1.7vw;
+}
+
+.textAward {
+  font-family: Century Gothic;
+  color: #d5d3c9ce;
+  font-size: 1.5vw;
+  font-style: italic;
+  background-color: #bcb598fe;
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, black), color-stop(36%, rgba(157, 117, 69, 0.933)), color-stop(56%, rgba(157, 117, 69, 0.933)), color-stop(98%, black));
+  background: linear-gradient(90deg, black 2%, rgba(157, 117, 69, 0.933) 36%, rgba(157, 117, 69, 0.933) 56%, black 98%);
+}
+
+.mouse-invisible {
+  cursor: none;
+}
+/*# sourceMappingURL=awards.component.css.map */

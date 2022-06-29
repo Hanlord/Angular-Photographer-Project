@@ -1,0 +1,28 @@
+footer {
+  height: 25vh;
+}
+
+.instagram:hover {
+  color: violet;
+}
+
+.facebook:hover,
+.linkedin:hover {
+  color: blue;
+}
+
+.google:hover {
+  color: red;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: #135d75;
+  }
+}

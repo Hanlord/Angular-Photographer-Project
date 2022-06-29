@@ -1,0 +1,212 @@
+.article, #cave {
+  -webkit-box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  width: 330px;
+  padding: 0;
+  height: 600px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.article:hover .bg, #cave:hover .bg {
+  -webkit-filter: blur(1.8px);
+          filter: blur(1.8px);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.article .bg, #cave .bg {
+  background: url("https://images.pexels.com/photos/47424/pexels-photo-47424.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.article-container {
+  height: 100%;
+  margin: -40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+
+.article-type {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.article-title {
+  font-size: 40px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.article-text {
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+}
+
+#cave {
+  margin: 0 20px;
+}
+
+#cave .bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("https://i.imgur.com/rvho5lK.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("https://i.imgur.com/rvho5lK.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container-article {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainTitle {
+  font-family: Century Gothic;
+}
+
+.containerCard1 {
+  width: 400px;
+}
+
+.photoCard1 {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.photoCard1 > .image1 {
+  border-radius: 2px 2px 0 0;
+}
+
+.photoCard1 > .heading1,
+.photoCard1 > .descriptiontitle,
+.photoCard1 > .actions1 {
+  padding: 0 20px;
+}
+
+.photoCard1 > .heading1 .title1 {
+  color: #333;
+  margin: 10px 0 5px;
+  font-family: Century Gothic;
+}
+
+.photoCard1 > .heading1 .subtitle1 {
+  color: #666;
+  font-size: 16px;
+  margin: 0;
+}
+
+.photoCard1 > .descriptiontitle {
+  color: #444;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.photoCard1 > .actions1 {
+  border-top: 1px solid #ccc;
+}
+
+.photoCard1 > .actions1 > .button1 {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  padding: 15px 0;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+
+.photoCard1 > .actions1 > .button1:hover {
+  color: #333;
+}
+
+#photoQuery {
+  max-width: 400px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .containerCard1 {
+    width: 350px;
+  }
+  .containerCard1 #photoQuery {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 1259px) {
+  .containerCard1 {
+    width: 330px;
+  }
+  .containerCard1 #photoQuery {
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 1191px) {
+  .containerCard1 {
+    width: 300px;
+  }
+  .containerCard1 #photoQuery {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .containerCard1 {
+    width: 230px;
+  }
+  .containerCard1 #photoQuery {
+    width: 230px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .containerCard1 {
+    width: 165px;
+  }
+  .containerCard1 #photoQuery {
+    width: 165px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .containerCard1 {
+    width: 165px;
+    margin-left: 17vh;
+    margin-bottom: 2vh;
+  }
+  .containerCard1 #photoQuery {
+    width: 165px;
+  }
+}
+/*# sourceMappingURL=article-homepage.component.css.map */
